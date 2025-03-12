@@ -1,0 +1,11 @@
+$dark-olive-green: #3a4d39;
+$champagne-gold: #ead8c0;
+$antique-white: #faf3e0;
+
+$dark-olive-green-light: lighten($dark-olive-green, 10%);
+$champagne-gold-dark: darken($champagne-gold, 10%);
+$antique-white-dark: darken($antique-white, 5%);
+
+$primary-color: $dark-olive-green;
+$secondary-color: $champagne-gold;
+$background-color: $antique-white;

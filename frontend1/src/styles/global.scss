@@ -1,0 +1,51 @@
+// src/styles/global.scss
+
+@import 'variables';
+
+// Global Reset & Box Sizing
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// Body Styles
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: $background-color;
+  color: $primary-color;
+  line-height: 1.6;
+}
+
+// Links
+a {
+  color: $primary-color;
+  text-decoration: none;
+  
+  &:hover {
+    color: $secondary-color;
+  }
+}
+
+// Buttons (as an example)
+button {
+  background-color: $primary-color;
+  color: $antique-white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $dark-olive-green-light;
+  }
+}
+
+// Utility Classes
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
